@@ -17,7 +17,8 @@ import { FaRegBell } from "react-icons/fa";
 export class NavbarNetflix extends Component {
   render() {
     return (
-      <Col>
+      
+      <Col className="mt-3">
         <Row>
           {[false, "lg"].map((expand) => (
             <Navbar
@@ -48,6 +49,7 @@ export class NavbarNetflix extends Component {
                     </Offcanvas.Title>
                   </Offcanvas.Header>
                   <Offcanvas.Body>
+                    
                     {/*----------------------------------- NAVBAR RIGHT -------------------------------------*/}
 
                     <Nav className="justify-content-start flex-grow-1 pe-3">
